@@ -1,0 +1,82 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  color: red;
+  font-style: italic;
+}
+
+.task-form {
+  margin: 20px;
+}
+
+.task-form input,
+.task-form select {
+  padding: 8px;
+  margin: 5px;
+}
+
+.task-form button {
+  padding: 8px 15px;
+  background-color:rgb(67, 79, 47);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color:darkturquoise;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid rgb(128, 128, 128);
+}
+
+.task-list button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list button:first-child {
+  background-color:rgb(101, 126, 75);
+  color: white;
+}
+
+.task-list button:last-child {
+  background-color:rgb(200, 233, 122);
+  color: white;
+}
+
+.progress-tracker {
+  margin: 100px;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 10px;
+  background-color: darkblue;
+  margin: auto;
+}
+
+.progress {
+  height: 10px;
+  background-color: rgb(179, 255, 0);
+}
